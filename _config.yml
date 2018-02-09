@@ -39,3 +39,12 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+repository: brodecva/brodecva.github.io
+github: [metadata]
+
+# Theme specific
+theme_color: white
+
+social_link: twitter
+social_username: VaclavBrodec
