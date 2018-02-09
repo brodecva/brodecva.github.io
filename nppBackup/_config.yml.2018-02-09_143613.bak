@@ -24,7 +24,7 @@ github_username:  brodecva
 
 # Build settings
 markdown: kramdown
-theme: jekyll-swiss
+theme: minima
 plugins:
   - jekyll-feed
 
