@@ -1,0 +1,229 @@
+{
+  "basics": {
+    "name": "Václav Brodec",
+    "label": "programmer",
+    "image": "http://www.brodec.net/assets/images/brodec-vaclav-picture-bw.jpg",
+    "email": "brodecva@gmail.com",
+    "phone": "+420 775 445 490",
+    "url": "https://www.brodec.net",
+    "summary": "I am a programmer with eight years of working experience, which consists mainly of various projects based on Java platform (ranging from custom HTTP proxies to various back-end solutions and application interfaces), complex database applications (based on PostgreSQL and requiring non-trivial database programming and optimization techniques) and data analysis and presentation.\n\nI have earned a master degree in Software Engineering and a bachelor degree in Computer Science. Through my academic studies, I have gained sizable experience in working with Open and Linked Data, as well as in implementing and extending classical dialog systems.\n\nWhile programming is not only my job, but also long-time passion, I consider myself more of people person than a run-of-the-mill programmer. I truly enjoy connecting with non-technical people, understanding their needs in return, and translating them into elegant solutions based on working code. I welcome any opportunities that will allow me to continue to do so!",
+    "location": {
+      "address": "Pátkova 3",
+      "postalCode": "185 00",
+      "city": "Prague 8",
+      "countryCode": "CZ",
+      "region": "Prague"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "brodecva",
+        "url": "https://github.com/brodecva/"
+      },
+	  {
+        "network": "LinkedIn",
+        "username": "VaclavBrodec",
+        "url": "https://www.linkedin.com/in/vaclavbrodec/"
+      },
+	  {
+        "network": "Twitter",
+        "username": "VaclavBrodec",
+        "url": "https://twitter.com/VaclavBrodec"
+      },
+      {
+        "network": "Instagram",
+        "username": "brodecva",
+        "url": "https://www.instagram.com/brodecva/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "ADOL Monitor s.r.o.",
+      "location": "Prague",
+      "description": "leading provider of analytic tools and data focused on the market of real estates in the Czech Republic",
+      "position": "programmer",
+      "url": "https://www.adol.cz",
+      "startDate": "2012-07-01",
+      "summary": "Working as programmer and data analyst at a company dedicated to monitoring and processing of unparalleled amount of exclusive data, modeling the market of real estates in the Czech Republic. Displayed in beautiful interactive maps with plethora of additional context, resulting in an invaluable tool whenever finding investment or business opportunities. The company is the market leader and the largest local data provider of its kind. While it is renown for its high-quality products focused on auctions and foreclosed properties, it first made its name as the original Czech aggregator of all advertised real estates.",
+      "highlights": [
+        "Frequent co-organizer and participant of the most prestigious events and conferences in the real estates sector",
+        "Preferred business partner of the largest real estate companies in the Czech Republic",
+        "Integrated into the most popular applications supporting the business with real estates on the market"
+      ]
+    }
+  ],
+  "volunteer": [
+  ],
+  "education": [
+    {
+      "institution": "Charles University, Faculty of Mathematics and Physics",
+      "area": "Software and Data Engineering",
+      "studyType": "Master",
+      "startDate": "2015-09-23",
+      "endDate": "2019-01-12",
+      "courses": [
+        "NDBI036 - A Practical Approach to Database Systems",
+		"NSWI126 - Advanced Tools for Software Development and Monitoring",
+		"NDBI040 - Big Data Management and NoSQL Databases",
+		"NPRG014 - Concepts of Modern Programming Languages",
+		"NSWI144 - Data Integration and Quality",
+		"NTIN066 - Data Structures I",
+		"NSWI094 - Database Application Development",
+		"NPRG024 - Design Patterns",
+		"NTIN090 - Introduction to Complexity and Computability",
+		"NSWI041 - Introduction to Software Engineering",
+		"NPRG013 - Java",
+		"NSWI080 - Middleware",
+		"NSWI004 - Operating Systems",
+		"NSWI035 - Principles of Distributed Systems",
+		"NSWI149 - Software Engineering in Practice",
+		"NPRG023 - Software Project",
+		"NSWI130 - Software System Architectures",
+		"NDBI016 - Transactions",
+		"NSWI150 - Virtualization and Cloud Computing",
+		"NSWI108 - Web Semantization",
+		"NSWI145 - Web Services"
+      ],
+	  "gpa": "0"
+    },
+	{
+      "institution": "Charles University, Faculty of Mathematics and Physics",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2009-09-03",
+      "endDate": "2014-09-14",
+      "courses": [
+        "NMAI062 - Algebra I",
+		"NTIN060 - Algorithms and Data Structures I",
+		"NTIN061 - Algorithms and Data Structures II",
+		"NAIL069 - Artificial Intelligence I",
+		"NAIL070 - Artificial Intelligence II",
+		"NTIN071 - Automata and Grammars",
+		"NDMI011 - Combinatorics and Graphs I",
+		"NSWI133 - Commercial Workshops",
+		"NSWI090 - Computer Networks I",
+		"NSWI021 - Computer Networks II",
+		"NDBI007 - Data Organisation and Processing I",
+		"NDBI025 - Database Systems",
+		"NDMI002 - Discrete Mathematics",
+		"NPRG045 - Individual Software Project",
+		"NSWI096 - Internet",
+		"NPFL012 - Introduction to Computer Linguistics",
+		"NSWI095 - Introduction to UNIX",
+		"NMAI057 - Linear Algebra I",
+		"NMAI058 - Linear Algebra II",
+		"NMAI054 - Mathematical Analysis I",
+		"NMAI055 - Mathematical Analysis II",
+		"NMAI056 - Mathematical Analysis III",
+		"NMAI069 - Mathematical skills",
+		"NPRG005 - Non-procedural Programming",
+		"NMAI042 - Numerical Mathematics",
+		"NOPT048 - Optimization methods",
+		"NSWI120 - Principles of Computers and Operating Systems",
+		"NMAI059 - Probability and Statistics",
+		"NPRG030 - Programming I",
+		"NPRG031 - Programming II",
+		"NPRG041 - Programming in C++",
+		"NAIL062 - Propositional and Predicate Logic",
+		"NPRG043 - Recommended Programming Practices",
+		"NPRG046 - Software Praxis",
+		"NPRG036 - XML Technologies"
+      ],
+	  "gpa": "0"
+    }
+  ],
+  "awards": [
+  ],
+  "publications": [
+    {
+      "name": "Discovering and Creating Relations among CSV Columns Using Linked Data Knowledge Bases",
+      "releaseDate": "2019-02-04",
+      "url": "https://is.cuni.cz/webapps/zzp/download/120322200/",
+      "summary": "Master thesis",
+	  "publisher": "none"
+    },
+	{
+      "name": "Development Environment Extending the Dialog Management Options of AIML",
+      "releaseDate": "2015-01-26",
+      "url": "https://is.cuni.cz/webapps/zzp/download/130147720/",
+      "summary": "Bachelor thesis",
+	  "publisher": "none"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java development",
+      "level": "Master",
+      "keywords": [
+        "Java",
+        "Spring"
+      ]
+    },
+    {
+      "name": "Database programming",
+      "level": "Master",
+      "keywords": [
+        "PostgreSQL",
+        "SQL"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "proficient user (C1)"
+    },
+	{
+      "language": "Czech",
+      "fluency": "native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "photography",
+      "keywords": [
+        "analog",
+        "instant",
+		"street",
+		"architecture",
+		"documentary"
+      ]
+    },
+	{
+      "name": "music",
+      "keywords": [
+        "film scores",
+		"violin playing",
+		"composing"
+      ]
+    }
+  ],
+  "references": [
+  ],
+  "projects": [
+    {
+      "name": "ODALIC",
+      "description": "student project",
+      "highlights": [
+		"Presented at Semantics 2016 conference, Leipzig"
+      ],
+      "keywords": [
+        "Linked Data", "Open Data", "tabular data", "semantic interpretation"
+      ],
+      "startDate": "2016-05-10",
+      "endDate": "2017-06-16", 
+      "url": "http://github.com/odalic",
+      "roles": [ 
+        "Team lead", "Programmer"
+      ],
+      "entity": "ADEQUATe Open Data",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://www.brodec.net/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2019-05-02T17:00:00"
+  }
+}

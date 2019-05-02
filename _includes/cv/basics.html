@@ -48,16 +48,20 @@
 
     <div class="entry-content">
       <address>
-        {% if cv.basics.location.address %}
+        {% comment %}
+		{% if cv.basics.location.address %}
           <span class="address">{{ cv.basics.location.address }}</span><br />
         {% endif %}
+		{% endcomment %}
         {% if cv.basics.location.city %}
           <span class="city">{{ cv.basics.location.city | append: ', ' }}</span>
         {% endif %}
-        {% if cv.basics.location.region %}
+		{% comment %}
+		{% if cv.basics.location.region %}
           <span class="region">{{ cv.basics.location.region | append: ' ' }}</span>
         {% endif %}
-        {% if cv.basics.location.postalCode %}
+		{% endcomment %}
+		{% if cv.basics.location.postalCode %}
           <span class="postalCode">{{ cv.basics.location.postalCode | append: ' ' }}</span>
         {% endif %}
         {% if cv.basics.location.countryCode %}

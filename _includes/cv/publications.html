@@ -8,8 +8,8 @@
       {% for p in cv.publications %}
         {% if p.name %}
           <h4 class="title">
-            {% if p.website %}
-              <a href="{{ p.website }}">{{ p.name }}</a>
+            {% if p.url %}
+              <a href="{{ p.url }}">{{ p.name }}</a>
             {% else %}
               {{ p.name }}
             {% endif %}
@@ -18,9 +18,11 @@
         {% if p.releaseDate %}
           <div class="date">{{ p.releaseDate }}</div>
         {% endif %}
+		{% comment  %}
         {% if p.publisher %}
           <h5 class="publisher">{{ p.publisher | prepend: 'Published by ' }}</h5>
         {% endif %}
+		{% endcomment  %}
         {% if p.summary %}
           <div class="summary">{{ p.summary | markdownify }}</div>
         {% endif %}

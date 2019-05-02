@@ -165,7 +165,16 @@ main {
       margin: 1rem 0 0;
     }
 
-    .courses,
+    .courses {
+	  @include list-unstyled;
+	
+	  .course {
+	    color: tint($text-color, 20%);
+	    font-family: $monospace-font-family;
+		font-size: 80%;
+	  }
+	}
+	
     .keywords {
       @include list-unstyled;
     }
