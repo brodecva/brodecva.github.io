@@ -16,7 +16,7 @@
 lang: en-US
 title: Václav Brodec
 email: brodecva@gmail.com
-description: "programmer"
+description: "technical poetry"
 baseurl: # the optional subpath of your site, e.g. "/blog"
 url: "https://www.brodec.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
@@ -83,3 +83,5 @@ defaults:
     values:
       layout: post
       read_time: true
+
+copyright: "© 2019 Václav Brodec"
