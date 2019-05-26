@@ -74,6 +74,12 @@ exclude:
   - /docs # ignore Basically Basic sample site
   - /example # ignore Basically Basic dev site
 
+# Collections
+collections:
+  photography:
+    output: true
+    permalink: /:collection/:path/
+  
 # Front Matter Defaults
 defaults:
   # _posts
@@ -83,5 +89,12 @@ defaults:
     values:
       layout: post
       read_time: true
+  # _photography
+  - scope:
+      path: "_photography"
+      type: photography
+    values:
+      layout: post
+      read_time: false
 
 copyright: "© 2019 Václav Brodec"
