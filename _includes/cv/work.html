@@ -30,7 +30,7 @@
         </div>
         {% if w.summary %}
           <div class="summary">
-            <p>{{ w.summary }}</p>
+            {{ w.summary | markdownify}}
           </div>
         {% endif %}
         {% if w.highlights %}

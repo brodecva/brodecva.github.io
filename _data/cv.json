@@ -1,16 +1,16 @@
 {
   "basics": {
     "name": "Václav Brodec",
-    "label": "programmer",
+    "label": "software developer",
     "image": "http://www.brodec.net/assets/images/brodec-vaclav-picture-bw.jpg",
     "email": "brodecva@gmail.com",
     "phone": "+420 775 445 490",
-    "url": "https://www.brodec.net",
-    "summary": "I am a programmer with eight years of working experience, which consists mainly of various projects based on Java platform (ranging from custom HTTP proxies to various back-end solutions and application interfaces), complex database applications (based on PostgreSQL and requiring non-trivial database programming and optimization techniques) and data analysis and presentation.\n\nI have earned a master degree in Software Engineering and a bachelor degree in Computer Science. Through my academic studies, I have gained sizable experience in working with Open and Linked Data, as well as in implementing and extending classical dialog systems.\n\nWhile programming is not only my job, but also long-time passion, I consider myself more of people person than a run-of-the-mill programmer. I truly enjoy connecting with non-technical people, understanding their needs in return, and translating them into elegant solutions based on working code. I welcome any opportunities that will allow me to continue to do so!",
+    "website": "https://www.brodec.net",
+    "summary": "I am a programmer with eight years of working experience, which consists mainly of various projects based on Java platform, complex database applications, data analyses and presentations.\n\nI have earned a master degree in Software Engineering and a bachelor degree in Computer Science. Through my studies, I have gained sizable experience in working with Open and Linked Data, as well as in implementing and extending classic dialog systems.\n\nWhile programming is not only my job, but also long-time passion, I consider myself more of people person than a run-of-the-mill programmer. I truly enjoy connecting with non-technical people, understanding their needs in return, and translating them into elegant solutions based on working code. I welcome any opportunities that will allow me to continue to do so!",
     "location": {
-      "address": "Pátkova 3",
-      "postalCode": "185 00",
-      "city": "Prague 8",
+      "address": "Počernická 699/62",
+      "postalCode": "108 00",
+      "city": "Prague 10",
       "countryCode": "CZ",
       "region": "Prague"
     },
@@ -38,14 +38,26 @@
     ]
   },
   "work": [
-    {
+	{
+      "company": "freelance software developer and data analyst",
+      "location": "Prague",
+      "description": "freelance software developer and data analyst, in collaboration with ADOL Monitor s.r.o.",
+      "position": "programmer, data analyst",
+      "website": "https://www.brodec.net",
+      "startDate": "2016-01-01",
+	  "summary": "continued collaboration with ADOL Monitor s.r.o.",
+      "highlights": []
+    }
+	,
+	{
       "company": "ADOL Monitor s.r.o.",
       "location": "Prague",
-      "description": "leading provider of analytic tools and data focused on the market of real estates in the Czech Republic",
-      "position": "programmer",
-      "url": "https://www.adol.cz",
+      "description": "programmer, lead programmer, and data analyst for the leading provider of analytic tools and data focused on the market of real estates in the Czech Republic",
+      "position": "programmer, lead programmer, data analyst",
+      "website": "https://www.adol.cz",
       "startDate": "2012-07-01",
-      "summary": "Working as programmer and data analyst at a company dedicated to monitoring and processing of unparalleled amount of exclusive data, modeling the market of real estates in the Czech Republic. Displayed in beautiful interactive maps with plethora of additional context, resulting in an invaluable tool whenever finding investment or business opportunities. The company is the market leader and the largest local data provider of its kind. While it is renown for its high-quality products focused on auctions and foreclosed properties, it first made its name as the original Czech aggregator of all advertised real estates.",
+	  "endDate": "2015-12-31",
+      "summary": "Working as programmer and data analyst at a company dedicated to monitoring and processing of unparalleled amount of exclusive data, modeling the market of real estates in the Czech Republic. Displayed in beautiful interactive maps with plethora of additional context, resulting in an invaluable tool whenever finding investment or business opportunities.\n\nThe company is the market leader and the largest local data provider of its kind. While it is renown for its high-quality products focused on auctions and foreclosed properties, it first made its name as the original Czech aggregator of all advertised real estates.",
       "highlights": [
         "Frequent co-organizer and participant of the most prestigious events and conferences in the real estates sector",
         "Preferred business partner of the largest real estate companies in the Czech Republic",
@@ -157,7 +169,8 @@
       "level": "Master",
       "keywords": [
         "Java",
-        "Spring"
+        "Spring",
+		"Hibernate"
       ]
     },
     {
@@ -197,33 +210,211 @@
 		"violin playing",
 		"composing"
       ]
+    },
+	{
+      "name": "pub quizes",
+      "keywords": [
+        "trivia"
+      ]
     }
   ],
   "references": [
   ],
   "projects": [
+	{
+      "name": "SKk",
+      "description": "Complete model and scraper for cadastral data",
+      "highlights": [
+	  ],
+      "keywords": [
+        "Java", "jsoup", "Jauntium", "Docker", "PostgreSQL", "Hibernate", "Spring Boot", "cadastral data"
+      ],
+      "startDate": "2019-05-15",
+      "roles": [
+        "designer", "programmer"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
+      "type": "application"
+    }
+	,
+	{
+      "name": "ExtraRelaTable",
+      "description": "Thesis project automating assignment of RDF properties to numeric table columns, to semantically identify the relations formed between the columns and the subject of the table.",
+      "highlights": [
+	  ],
+      "keywords": [
+        "Linked Data", "Open Data", "tabular data", "semantic interpretation", "numeric data", "classification", "RDF"
+      ],
+      "startDate": "2017-09-05",
+      "endDate": "2019-01-18", 
+      "url": "https://github.com/brodecva/extrarelatable/",
+      "roles": [ 
+        "researcher", "programmer"
+      ],
+      "entity": "Charles University, Faculty of Mathematics and Physics",
+      "type": "application"
+    }
+	,
+	{
+      "name": "Datové sady",
+      "description": "A tool which allows non-technical users to efficiently execute customizable SQL queries from a set of templates, format the output, and turn it into deliverable files.",
+      "highlights": [
+      ],
+      "keywords": [
+        "jOOQ", "JDBC", "PostgreSQL", "SQL", "Apache POI", "PostGIS"
+      ],
+      "startDate": "2017-03-01",
+      "url": "https://www.adol.cz/sluzby/katastralni-data/",
+      "roles": [ 
+        "back end programmer", "database administrator"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
+      "type": "application"
+    }
+	,
     {
+      "name": "Estates watchdog, bankruptcies and distrainments monitor re-factoring",
+      "description": "Following a merger of ADOL Group and Monitor dražeb s.r.o., I was tasked to reorganize the structure and form of communication of several key legacy systems and expose their functionality through well-defined APIs, mainly to allow outsourcing of the presentation layer to front-end specialists, and to pave the way for their gradual replacement.",
+      "highlights": [
+	  ],
+      "keywords": [
+        "Java", "Jersey", "Spring"
+      ],
+      "startDate": "2016-09-01",
+      "endDate": "2017-12-01", 
+      "roles": [ 
+        "architect", "programmer"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
+      "type": "application"
+    }
+	,
+	{
       "name": "ODALIC",
-      "description": "student project",
+      "description": "Student project dedicated to developing a comprehensive user-friendly tool for transforming tabular data to Linked Data.",
       "highlights": [
 		"Presented at Semantics 2016 conference, Leipzig"
       ],
       "keywords": [
-        "Linked Data", "Open Data", "tabular data", "semantic interpretation"
+        "Linked Data", "Open Data", "tabular data", "semantic interpretation", "RDF", "SPARQL"
       ],
       "startDate": "2016-05-10",
       "endDate": "2017-06-16", 
       "url": "http://github.com/odalic",
       "roles": [ 
-        "Team lead", "Programmer"
+        "team lead", "programmer"
       ],
       "entity": "ADEQUATe Open Data",
+      "type": "application"
+    }
+	,
+	{
+      "name": "VFK extension",
+      "description": "An extension of the official model of Czech cadastral data, to make it updatable from publicly available sources. As the established schema was too large to rewrite it manually, significant amount of schema generation from DB metadata was employed.",
+      "highlights": [
+	  ],
+      "keywords": [
+        "PostgreSQL", "PL/pgSQL"
+      ],
+      "startDate": "2016-01-01",
+      "endDate": "2016-09-01", 
+      "roles": [ 
+        "designer", "programmer"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
+      "type": "application"
+    }
+	,
+	{
+      "name": "Owlery",
+      "description": "Custom HTTP proxy and balancer managing unreliable nodes.",
+      "highlights": [
+	  ],
+      "keywords": [
+        "Java", "HTTP proxy"
+      ],
+      "startDate": "2014-03-01",
+      "endDate": "2014-10-01", 
+      "roles": [ 
+        "designer", "programmer"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
+      "type": "application"
+    }
+	,
+	{
+      "name": "Monitoring of public bulletin boards for ČEPRO, a.s.",
+      "description": "Adaptation of existing infrastructure to accommodate the client's requirements.",
+      "highlights": [
+	  ],
+      "keywords": [
+        "Java", "open data"
+      ],
+      "startDate": "2013-10-25",
+      "endDate": "2014-02-01", 
+      "url": "https://www.adol.cz/sluzby/uredni-desky/",
+      "roles": [ 
+        "programmer"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
+      "type": "application"
+    }
+	,
+	{
+      "name": "Niffler",
+      "description": "Chrome browser extension (and its back end) supporting manual scraping of sites.",
+      "highlights": [
+	  ],
+      "keywords": [
+        "JavaScript", "PHP", "PostgreSQL"
+      ],
+      "startDate": "2013-08-01",
+      "endDate": "2014-03-01", 
+      "roles": [ 
+        "designer", "programmer"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
+      "type": "application"
+    }
+	,
+    {
+      "name": "Botníček",
+      "description": "Bachelor thesis project implementing advanced dialog management through augmented transition networks (ATN). The solution is remarkable in its adherence to the rather limited standard of AIML language, this allows deployment of the augmented bots in all standard interpreters without any modifications.",
+      "highlights": [],
+      "keywords": [
+        "AIML", "Java", "chatbot", "ATN", "dialog management"
+      ],
+      "startDate": "2012-09-01",
+      "endDate": "2014-12-08", 
+      "url": "https://brodec.wordpress.com/botnicek/",
+      "roles": [ 
+        "designer", "programmer"
+      ],
+      "entity": "Charles University, Faculty of Mathematics and Physics",
+      "type": "application"
+    }
+	,
+	{
+      "name": "APortal - 3rd generation redesign",
+      "description": "As my first major project for the company, I was tasked with feature overhaul of the breadwinning application, while turning it into new graphics provided by an external contractor. As the project started just before me joining in and lost its leader during its course, I had to step in to deliver, while making sure that the system remains operational for the active user base throughout the process.",
+      "highlights": [
+	  ],
+      "keywords": [
+        "Java", "PostgreSQL", "Spring", "Hibernate", "CSS", "JavaScript", "jQuery"
+      ],
+      "startDate": "2012-08-01",
+      "endDate": "2013-04-01", 
+      "url": "http://www.adol.cz/",
+      "roles": [ 
+        "back end developer", "front end developer"
+      ],
+      "entity": "ADOL Monitor s.r.o.",
       "type": "application"
     }
   ],
   "meta": {
     "canonical": "https://www.brodec.net/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2019-05-02T17:00:00"
+    "version": "v1.0.1",
+    "lastModified": "2019-11-17T17:00:00"
   }
 }

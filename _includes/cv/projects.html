@@ -1,0 +1,58 @@
+{% if cv.projects %}
+  <div id="projects" class="entry">
+    <header class="entry-header">
+      <h3 class="entry-title">Projects</h3>
+    </header>
+
+    <div class="entry-content">
+      {% for p in cv.projects %}
+        {% if p.name %}
+          <h3 class="project">
+            {% if p.url %}
+              <a href="{{ p.url }}">{{ p.name }}</a>
+            {% else %}
+              {{ p.name }}
+            {% endif %}
+          </h3>
+        {% endif %}
+		{% if p.roles %}
+          <h4 class="roles">{{ p.roles | array_to_sentence_string }}</h4>
+        {% endif %}
+		{% if p.entity %}
+          <div class="entity">{{ p.entity }}</div>
+        {% endif %}
+		<div class="date">
+          {% if p.startDate %}
+            <span class="startDate">{{ p.startDate }}</span>
+          {% endif %}
+          {% if p.endDate == '' %}
+            <span class="endDate">{{ site.data.theme.t.present | default: 'Present' | prepend: ' &mdash; ' }}</span>
+          {% else %}
+            <span class="endDate">{{ p.endDate | prepend: ' &mdash; ' }}</span>
+          {% endif %}
+        </div>
+		{% comment %}
+			{% if p.type %}
+				<div class="type">{{ p.type }}</div>
+			{% endif %}
+		{% endcomment  %}
+        {% if p.description %}
+          <div class="description">
+            <p>{{ p.description }}</p>
+          </div>
+        {% endif %}
+        {% if p.highlights %}
+          <ul class="highlights">
+            {% for highlight in p.highlights %}
+              <li>{{ highlight }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+		{% if p.keywords %}
+			<div class="keywords-project">{{ p.keywords | join: ", " }}</div>
+          </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}
