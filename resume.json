@@ -30,14 +30,40 @@
         "username": "VaclavBrodec",
         "url": "https://twitter.com/VaclavBrodec"
       },
+	  {
+        "network": "Facebook",
+        "username": "VaclavBrodec",
+        "url": "https://www.facebook.com/VaclavBrodec"
+      },
       {
         "network": "Instagram",
         "username": "brodecva",
         "url": "https://www.instagram.com/brodecva/"
+      },
+	  {
+        "network": "Flickr",
+        "username": "brodecva",
+        "url": "https://www.flickr.com/photos/brodec/"
+      },
+      {
+        "network": "SoundCloud",
+        "username": "brodecva",
+        "url": "https://soundcloud.com/brodecva"
       }
     ]
   },
   "work": [
+	{
+      "company": "Ataccama Software, s.r.o.",
+      "location": "Prague",
+      "description": "working as SW engineer for a company integrating Data Discovery & Profiling, Metadata Management & Data Catalog, Data Quality Management, Master & Reference Data Management, and Big Data Processing & Data Integration in a single ‘Self-Driving’ Data Management & Governance platform",
+      "position": "SW engineer",
+      "website": "https://www.ataccama.com",
+      "startDate": "2020-01-01",
+	  "summary": "member of SW engineering team working on a ‘Self-Driving’ Data Management & Governance platform, Ataccama One",
+      "highlights": []
+    }
+	,
 	{
       "company": "freelance software developer and data analyst",
       "location": "Prague",
@@ -45,6 +71,7 @@
       "position": "programmer, data analyst",
       "website": "https://www.brodec.net",
       "startDate": "2016-01-01",
+	  "endDate": "2019-12-31",
 	  "summary": "continued collaboration with ADOL Monitor s.r.o.",
       "highlights": []
     }
@@ -414,7 +441,7 @@
   ],
   "meta": {
     "canonical": "https://www.brodec.net/resume.json",
-    "version": "v1.0.1",
-    "lastModified": "2019-11-17T17:00:00"
+    "version": "v1.1.0",
+    "lastModified": "2020-04-12T20:00:00"
   }
 }
